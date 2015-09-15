@@ -1,0 +1,44 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "http://webfonts.ru/import/amble.css";
+
+$font-stack: Amble;
+
+body {
+	font: 100% $font-stack;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+  	padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    &:visited { text-decoration: none; }
+    &:active { text-decoration: none; }
+    &:hover { 
+    	text-decoration: none;
+    	color: #000; }
+  }
+
+  i {
+  	margin-right: 10px;
+  	text-align: right;
+  	width: 30px;
+  	vertical-align: middle;
+  	padding: 5px 30px 5px 20px;
+  }
+
+}
