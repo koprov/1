@@ -6,39 +6,46 @@
 @import "compass/reset";
 @import "http://webfonts.ru/import/amble.css";
 
-$font-stack: Amble;
-
 body {
-	font: 100% $font-stack;
+	font: "PT Sans", Tahoma, Arial;
+	text-transform: uppercase;
 }
 
 nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+	border: 1px solid #939393;
+	width: 206px;
+	background: #f9f9f9;
+	margin: 12px 7px;
+	list-style: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px; 
+ 	-ms-border-radius: 5px; 
 
-  li {
-  	padding: 10px;
-  }
+	li {
+		margin: 11px 0 11px 0;
+		font-size: 10px;
+	}
 
-  a {
-    text-decoration: none;
-    color: #000;
-    &:visited { text-decoration: none; }
-    &:active { text-decoration: none; }
-    &:hover { 
-    	text-decoration: none;
-    	color: #000; }
-  }
+	a {
+		padding-left: 30px;
+		line-height: 40px;
+		display: block;
+		text-decoration: none;
+		color: #000;
+		&:visited { text-decoration: none; }
+		&:active { text-decoration: none; }
+		&:hover { 
+			text-decoration: none;
+			color: #000; }
+	}
 
-  i {
-  	margin-right: 10px;
-  	text-align: right;
-  	width: 30px;
-  	vertical-align: middle;
-  	padding: 5px 30px 5px 20px;
-  }
+	i {
+		display: inline-block;
+		text-align: center;
+		width: 40px;
+		vertical-align: middle;
+		margin-right: 30px;
+	}
 
 }

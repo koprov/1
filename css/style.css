@@ -68,44 +68,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 body {
-  font: 100% Amble;
+  font: "PT Sans", Tahoma, Arial;
+  text-transform: uppercase;
 }
 
-/* line 16, ../sass/style.scss */
-nav ul {
-  margin: 0;
-  padding: 0;
+/* line 14, ../sass/style.scss */
+nav {
+  border: 1px solid #939393;
+  width: 206px;
+  background: #f9f9f9;
+  margin: 12px 7px;
   list-style: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
 }
-/* line 22, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 nav li {
-  padding: 10px;
-}
-/* line 26, ../sass/style.scss */
-nav a {
-  text-decoration: none;
-  color: #000;
-}
-/* line 29, ../sass/style.scss */
-nav a:visited {
-  text-decoration: none;
+  margin: 11px 0 11px 0;
+  font-size: 10px;
 }
 /* line 30, ../sass/style.scss */
-nav a:active {
-  text-decoration: none;
-}
-/* line 31, ../sass/style.scss */
-nav a:hover {
+nav a {
+  padding-left: 30px;
+  line-height: 40px;
+  display: block;
   text-decoration: none;
   color: #000;
 }
 /* line 36, ../sass/style.scss */
+nav a:visited {
+  text-decoration: none;
+}
+/* line 37, ../sass/style.scss */
+nav a:active {
+  text-decoration: none;
+}
+/* line 38, ../sass/style.scss */
+nav a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* line 43, ../sass/style.scss */
 nav i {
-  margin-right: 10px;
-  text-align: right;
-  width: 30px;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
   vertical-align: middle;
-  padding: 5px 30px 5px 20px;
+  margin-right: 30px;
 }
